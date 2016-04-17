@@ -2,7 +2,6 @@
 
 // What is the largest prime factor of the number 600851475143 ?
 
-
 var primeArray = [];
 
 
@@ -15,25 +14,14 @@ for (var i = 1; i < num; i++) {
 		}
 		
 		else if (num % i === 0) {
-		
 			
-				for (var i2 = 0; i2 < i; i2++) {
+			
+				primeArray.push(i);
 					
-					if (i % i2 === 0) {
-						
-						
-					}
-					
-					else {
-						
-						primeArray.push(i);
-						
-					}
 					
 				}	
 		
 		
-		}
 		
 		
 }

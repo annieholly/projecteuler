@@ -13,13 +13,13 @@ for (var i = 1; i < num; i++) {
 			
 		}
 		
-		else if (num % i === 0) {
+		// else if (num % i === 0) {
 			
 			
-				primeArray.push(i);
+		// 		primeArray.push(i);
 					
 					
-				}	
+		// 		}	
 		
 		
 		
